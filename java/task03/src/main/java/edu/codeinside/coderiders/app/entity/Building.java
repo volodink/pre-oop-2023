@@ -113,7 +113,7 @@ public class Building {
      * @param excludeIds Elevator ids that must be excluded from search.
      * @return Nearest elevator id.
      */
-    private Integer getNearestElevatorId(Integer userFloor, ArrayList<Integer> excludeIds) {
+        private Integer getNearestElevatorId(Integer userFloor, ArrayList<Integer> excludeIds) {
         ArrayList<Integer> finalExcludeIds;
 
         if (excludeIds == null || excludeIds.isEmpty()) {
